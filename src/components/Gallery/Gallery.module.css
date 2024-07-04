@@ -1,0 +1,17 @@
+.container {
+  background-color: var(--color-orange);
+  position: relative;
+}
+
+.section_text_p1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* Gallery */

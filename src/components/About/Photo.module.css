@@ -1,0 +1,48 @@
+.border {
+  height: 360px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 0.8s;
+  position: relative;
+}
+
+.container_photo {
+  height: 379px;
+  width: 300px;
+  border-radius: 10px;
+  transition: background 1.8s;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+}
+
+.card0 {
+  background: url(https://images.wsj.net/im-920797/?width=1278&size=1) center
+    center no-repeat;
+  background-size: 600px;
+  filter: grayscale(0.9);
+}
+
+.card0:hover {
+  background: url(https://images.wsj.net/im-920797/?width=1278&size=1) left
+    center no-repeat;
+  background-size: 800px;
+  filter: grayscale(0.9);
+}
+
+.text {
+  font-size: 30px;
+  margin: 10px;
+  color: var(--color-black);
+  letter-spacing: 2px;
+  opacity: 0;
+}
+
+.container_photo:hover .text {
+  opacity: 1;
+}
