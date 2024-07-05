@@ -30,7 +30,7 @@ const Gallery = () => {
             <h3>Black Panther</h3>
             <p>
               Un soldado estadounidense de operaciones negras que busca derrocar
-              a su primo T'Challa, con su propia opinión sobre cómo debería
+              a su primo T&apos;Challa, con su propia opinión sobre cómo debería
               gobernarse Wakanda.
             </p>
           </div>
