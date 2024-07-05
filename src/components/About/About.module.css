@@ -33,3 +33,32 @@
   font-size: 1.1rem;
   text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+  .section_container {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .img_container {
+    width: 275px;
+    height: 275px;
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img_container {
+    width: auto;
+    height: 46vw;
+    margin: 6rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text {
+    text-align: justify;
+  }
+}

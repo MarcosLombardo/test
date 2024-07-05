@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 65vh;
 }
 
 .pic_container {
@@ -32,4 +32,51 @@
 .title {
   font-size: 3rem;
   text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    height: 60vh;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: block;
+  }
+
+  .pic_container {
+    width: 275px;
+    height: 275px;
+    margin: 0.5rem auto 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    height: 50vh;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 50vh;
+    margin-bottom: 2rem;
+  }
+
+  .pic_container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
+  .section_text_p2 {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
 }

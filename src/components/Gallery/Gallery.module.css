@@ -1,5 +1,7 @@
 .container {
   position: relative;
+  width: 80vw;
+  margin: auto;
 }
 
 .section_text_p1 {
@@ -80,4 +82,16 @@
 
 .img_container:hover .overlay {
   height: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
 }
