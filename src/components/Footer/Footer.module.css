@@ -1,3 +1,17 @@
 .container {
-  background-color: var(--color-grey);
+  position: relative;
+  margin: 30px 0;
+}
+
+.container p {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
+.social_networks {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
